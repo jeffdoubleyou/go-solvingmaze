@@ -3,7 +3,7 @@ package solvingmaze
 import (
 	"encoding/json"
 
-	"go-solvingmaze/models"
+	"github.com/jeffdoubleyou/go-solvingmaze/models"
 
 	"github.com/mitchellh/mapstructure"
 )
