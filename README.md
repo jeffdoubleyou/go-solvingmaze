@@ -6,7 +6,7 @@ SolvingMaze API Library for Go
 ## Import
 
 ~~~ go
-import github.com/jeffdoubleou/go-solvingmaze
+import github.com/jeffdoubleyou/go-solvingmaze
 ~~~
 
 ## Usage
