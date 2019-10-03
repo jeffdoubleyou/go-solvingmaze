@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"go-solvingmaze"
+
+	"github.com/jeffdoubleyou/go-solvingmaze"
 )
 
 func main() {
