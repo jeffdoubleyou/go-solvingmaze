@@ -1,9 +1,9 @@
 package solvingmaze
 
 import (
-	"go-solvingmaze/models"
-
 	"encoding/json"
+
+	"go-solvingmaze/models"
 
 	"github.com/mitchellh/mapstructure"
 )
