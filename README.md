@@ -4,10 +4,13 @@ SolvingMaze API Library for Go
 [![GoDoc](https://godoc.org/github.com/jeffdoubleyou/go-solvingmaze?status.svg)](https://godoc.org/github.com/jeffdoubleyou/go-solvingmaze)
 
 ## Import
-`import github.com/jeffdoubleou/go-solvingmaze`
+`
+import github.com/jeffdoubleou/go-solvingmaze
+`
 
 ## Usage
-`package main
+`
+package main
 
 import (
 	"fmt"
@@ -72,7 +75,8 @@ func main() {
 	} else {
 		fmt.Printf("\nRate: $%v\n", calc.Services[0].Rate)
 	}
-}`
+}
+`
 
 
 
