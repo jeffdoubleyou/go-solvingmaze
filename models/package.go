@@ -1,7 +1,5 @@
 package models
 
-import "github.com/jeffdoubleyou/go-solvingmaze/models"
-
 type Package struct {
 	Container     string
 	Weight        float64
@@ -11,7 +9,7 @@ type Package struct {
 	Height        float64
 	DimensionUnit string
 	Value         float64
-	Items         []*models.Item
+	Items         []*Item
 	Bundle        int
 	Tags          []string
 }
