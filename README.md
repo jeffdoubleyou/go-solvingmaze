@@ -1,6 +1,6 @@
 # go-solvingmaze
 
-[![GoDoc](https://godoc.org/github.com/jeffdoubleyou/go-bittrex?status.svg)](https://godoc.org/github.com/jeffdoubleyou/go-bittrex)
+[![GoDoc](https://godoc.org/github.com/jeffdoubleyou/go-solvingmaze?status.svg)](https://godoc.org/github.com/jeffdoubleyou/go-solvingmaze)
 ==========
 
 SolvingMaze API Library for Go
