@@ -1,6 +1,6 @@
 package models
 
-import "fcs-api/models"
+import "github.com/jeffdoubleyou/go-solvingmaze/models"
 
 type Package struct {
 	Container     string
