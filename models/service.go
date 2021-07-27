@@ -1,7 +1,7 @@
 package models
 
 type Service struct {
-	Status       bool
+	Status       *Status
 	Carrier      string
 	Service      string
 	Value        float64

@@ -1,6 +1,6 @@
 package models
 
 type Status struct {
-	Success  bool
-	Messages []string
+	Success  bool     `json:"success"`
+	Messages []string `json:"messages,omitempty"`
 }
