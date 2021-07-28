@@ -53,15 +53,15 @@ func (pq *PackAndQuote) Destination(props map[string]interface{}) (*Destination,
 func (pq *PackAndQuote) AddItem(props map[string]interface{}) (*Item, error) {
 
 	item := &models.Item{
-		Sku:            "",
-		Name:           "",
-		Qty:            1,
-		WeightUnit:     "lb",
-		Dimensions:     []*models.Dimension{},
-		DimensionsUnit: "in",
-		Rotatable:      true,
-		Packable:       true,
-		Strappable:     true,
+		Sku:           "",
+		Name:          "",
+		Qty:           1,
+		WeightUnit:    "lb",
+		Dimensions:    []*models.Dimension{},
+		DimensionUnit: "in",
+		Rotatable:     true,
+		Packable:      true,
+		Strappable:    true,
 	}
 
 	if props["Dimensions"] != nil {
