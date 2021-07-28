@@ -10,5 +10,5 @@ type Address struct {
 	Post          string   `json:"post,omitempty"`
 	Region        string   `json:"region,omitempty"`
 	Country       string   `json:"country,omitempty"`
-	Residential   bool     `json:"residential,bool,omitempty"`
+	Residential   bool     `json:"residential,bool"`
 }
