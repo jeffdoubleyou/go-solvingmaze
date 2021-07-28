@@ -6,11 +6,11 @@ type Item struct {
 	Qty               int           `json:"qty,integer"`
 	Shelf             string        `json:"shelf,models.Shelf,omitempty"`
 	UnitPrice         float64       `json:"unitPrice,float64,omitempty"`
-	Value             int           `json:"value,int,omitempty"`
+	Value             float64       `json:"value,int,omitempty"`
 	Weight            float64       `json:"weight,float64,omitempty"`
 	WeightUnit        string        `json:"weightUnit"`
 	Dimensions        []*Dimension  `json:"dimensions,[]models.Dimension"`
-	DimensionsUnit    string        `json:"dimensionsUnit,omitempty"`
+	DimensionUnit     string        `json:"dimensionUnit,omitempty"`
 	Rotatable         bool          `json:"rotatable,omitempty"`
 	Packable          bool          `json:"packable,omitempty"`
 	Strappable        bool          `json:"strappable,omitempty"`

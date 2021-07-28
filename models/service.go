@@ -7,7 +7,7 @@ type Service struct {
 	Weight     float64    `json:"weight"`
 	WeightUnit string     `json:"weightUnit"`
 	Rate       float64    `json:"rate"`
-	Value      int        `json:"value"`
+	Value      float64    `json:"value"`
 	Packing    []*Package `json:"packing"`
 	Status     struct {
 		Success bool `json:"success"`
